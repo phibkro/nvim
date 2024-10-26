@@ -29,4 +29,20 @@ return {
     },
   },
 
+  {
+    "williamboman/mason.nvim",
+    opts = {
+      ensure_installed = {
+        "lua",
+        "html",
+        "css",
+        "typescript-language-server",
+        "deno",
+        "biome",
+        "tailwindcss-language-server",
+        "emmet_language_server",
+      },
+    },
+  },
+
 }
